@@ -1,0 +1,11 @@
+.panel-navigation:hover,
+.drop-item:hover {
+  background-color: #f6f6f7;
+}
+.panel-navigation-dark:hover {
+  background-color: black;
+}
+.panel-navigation:hover .panel-fas,
+.panel-navigation-dark:hover .panel-fas {
+  color: #6fd4af !important;
+}

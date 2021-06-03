@@ -1,0 +1,24 @@
+<div
+  [ngClass]="{
+    'panel-navigation-dark': darkMode,
+    'panel-navigation': !darkMode
+  }"
+  class="rounded d-flex justify-content-start ps-3 pe-3 pt-3 pb-2 mb-1"
+>
+  <fa-icon
+    [icon]="iconName"
+    class="panel-fas fas fa-home fs-4 me-3 text-muted"
+  ></fa-icon>
+  <p
+    [ngClass]="{ 'text-muted': !darkMode, 'text-white': darkMode }"
+    class="pt-2"
+  >
+    {{ nameNav }}
+  </p>
+  <fa-icon
+    *ngIf="hasSecond"
+    [ngClass]="{ 'text-white': darkMode }"
+    [icon]="secondIconName"
+    class="fs-4 ms-auto"
+  ></fa-icon>
+</div>

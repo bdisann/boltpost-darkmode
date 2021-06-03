@@ -1,0 +1,25 @@
+.background-slider {
+  height: 34px;
+  width: 60px;
+  padding: 5px;
+  background-color: #ccc;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: 0.4s;
+  &.background-slider-active {
+    background-color: #6fd4af;
+    transition: 0.4s;
+  }
+}
+
+.slider-item {
+  height: 24px;
+  width: 24px;
+  background-color: white;
+  border-radius: 27px;
+  transition: 0.4s;
+  &.slider-item-active {
+    transition: 0.4s;
+    transform: translateX(27px);
+  }
+}

@@ -1,0 +1,10 @@
+<div
+  (click)="handleToggle()"
+  [ngClass]="{ 'background-slider-active': toggleActive }"
+  class="background-slider d-flex align-items-center"
+>
+  <div
+    [ngClass]="{ 'slider-item-active': toggleActive }"
+    class="slider-item"
+  ></div>
+</div>
