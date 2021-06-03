@@ -21,7 +21,7 @@ export class DashboardComponent implements OnInit {
   faCommentDollar = faCommentDollar;
   faSearch = faSearch;
   toggleNav = false;
-  darkMode = false;
+  darkMode = true;
 
   constructor() {}
 

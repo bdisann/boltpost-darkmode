@@ -7,7 +7,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class ToggleModeComponent implements OnInit {
   @Output() toggle: EventEmitter<any> = new EventEmitter();
-  toggleActive: boolean = false;
+  toggleActive: boolean = true;
   constructor() {}
 
   ngOnInit(): void {}
